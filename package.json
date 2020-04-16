@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [
     "typescript",
@@ -15,7 +16,11 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "typescript": "^3.8.3"
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {}
 }

@@ -1,6 +1,6 @@
-import { Project } from "../models/project.js";
-import { PROJECT_TYPE } from "../models/project-type-enum.js";
-import { State } from "./state-interface.js";
+import { Project } from "../models/project";
+import { PROJECT_TYPE } from "../models/project-type-enum";
+import { State } from "./state-interface";
 
 // Project State Management
 // this will hold all state of the app and interested components can dsubscribe

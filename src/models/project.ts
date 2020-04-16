@@ -1,4 +1,4 @@
-import { PROJECT_TYPE } from '../models/project-type-enum.js';
+import { PROJECT_TYPE } from '../models/project-type-enum';
 
 
 // Project

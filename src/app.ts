@@ -1,6 +1,6 @@
-import ProjectInput from "./components/project-input.js";
-import { ProjectList } from "./components/project-list.js";
-import { PROJECT_TYPE } from "./models/project-type-enum.js";
+import ProjectInput from "./components/project-input";
+import { ProjectList } from "./components/project-list";
+import { PROJECT_TYPE } from "./models/project-type-enum";
 
 new ProjectInput();
 new ProjectList(PROJECT_TYPE.active);

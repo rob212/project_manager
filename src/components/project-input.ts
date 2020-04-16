@@ -1,7 +1,7 @@
-import { projectState } from '../state/project-state.js';
-import Component from '../components/base-component.js';
-import { Validatable, valid } from '../utils/validation.js';
-import { Autobind } from '../decorators/autobind.js';
+import { projectState } from '../state/project-state';
+import Component from '../components/base-component';
+import { Validatable, valid } from '../utils/validation';
+import { Autobind } from '../decorators/autobind';
 
 
   // Project Input
